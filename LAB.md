@@ -30,7 +30,7 @@ You'll need to find images of each fruit to put in `images` folder.
     1. add function 'createLi' to each fruit that creates a `<li>` element with text
 1. In `app.js`:
     1. "import" (`globals`) `fruits` from `fruit.js`
-    1. process the fruits, using createLi fn to Append Child to `<ul>` element 
+    1. process the fruits (for loop), using createLi fn to Append Child to `<ul>` element 
 
 
 ## Stretch Goals
