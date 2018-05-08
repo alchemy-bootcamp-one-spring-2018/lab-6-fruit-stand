@@ -1,0 +1,22 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpg");
+}
+
+#container-main {
+    display: flex;
+    width: 666px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 0;
+    font-size: 2rem;
+}
