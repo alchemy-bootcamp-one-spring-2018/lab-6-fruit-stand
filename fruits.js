@@ -1,5 +1,5 @@
-/* globals fruits */
-/* exported fruits */
+/* globals i */
+/* exported createLi */
 'use strict';
 
 
@@ -11,43 +11,45 @@
 /* fruit object will need fruitName, fruitImg, fruitPrice */
 let fruits = [
     {
-        // fruitImg: ,
+        fruitImg: '0' + '.png',
         fruitName: 'Apples',
-        fruitPrice: '$1'
+        fruitPrice: '$1',
+        // fruitColor: 'green',
     },
     {
-        //fruitImg: ,
+        fruitImg: '1' + '.png',
         fruitName: 'Oranges',
-        fruitPrice: '$2'
+        fruitPrice: '$2',
+        // fruitColor: 'orange',
     },
     {
-        //fruitImg: ,
+        fruitImg: '2' + '.png',
         fruitName: 'Bananas',
-        fruitPrice: '$1'
+        fruitPrice: '$1',
+        // fruitColor: 'yellow',
     },
     {
-        //fruitImg: ,
+        fruitImg: '3' + '.png',
         fruitName: 'Pears',
-        fruitPrice: '$.50'
+        fruitPrice: '$.50',
+        // fruitColor: 'green',
     }
 ];
 
 //function creatLi()
-var createLi = function() {
+function createLi() {
     //code block to create <li>
     //follow steps to add to DOM
 
     //make a js reference to the parent element
     const ul = document.getElementById('fruits-list');
     //create the child element we want to add and save as a var
-    let li = document.createElement('fruit');
+    let li = document.createElement('li');
     //give child content (content can be text)
-    li.textContent = fruits['fruitName'] + ' are ' + fruits['fruitPrice'];
+    li.textContent = fruits[i].fruitName + ' are ' + fruits[i].fruitPrice;
     //append child to the parent
     ul.appendChild(li);
+}
 
-};
-
-
-
+createLi();
 //function for creating ridges on background 

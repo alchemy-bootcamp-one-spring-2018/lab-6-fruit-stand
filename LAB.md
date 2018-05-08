@@ -20,7 +20,7 @@ You'll need to find images of each fruit to put in `images` folder.
 1. Set the `img.src` to that image in your images folder
 1. Set the `.style.color` property of one of your elements to the color property of the fruit
 
-## Process Guidence
+## Process Guidance
 
 1. In your `index.html` 
     1. Include an 'fruit-list' id on a `<ul>` element as a "placeholder" for js-generated `<li>`s

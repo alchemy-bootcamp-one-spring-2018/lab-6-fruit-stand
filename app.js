@@ -1,4 +1,4 @@
-/* globals */
+/* globals fruits, createLi, i */
 /* exported */
 'use strict';
 
@@ -8,4 +8,7 @@
 
 
 //loop through fruits from fruits.js
-//call createLi to append child to <ul id="fruits-list">
+for(var f = 0; f < fruits.length; f++) {
+    //call createLi to append child to <ul id="fruits-list">
+    createLi(fruits[i]);
+}
