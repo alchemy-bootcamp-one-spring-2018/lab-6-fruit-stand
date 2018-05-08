@@ -1,14 +1,6 @@
 'use strict';
 
-
-// ternary
-const listID = book.hasRead ? 'read' : 'to-read';
-
-// is equal to
-let listID;
-if(book.hasRead) {
-    listId = 'read';
-}
-else {
-    listId = "to-read";
-}
+var parent = document.getElementById('parentElement');
+var child = document.createElement('p');
+child.textContent = 'Testing the words added in our p element';
+parent.appendChild(child);
