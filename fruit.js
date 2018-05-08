@@ -8,6 +8,7 @@ const fruits = [
         createLi: function() {
             let li = document.createElement('li');
             li.textContent = this.name + ' is ' + this.color;
+            li.setAttribute('class', this.color);
             return li;
         },
         createImg: function() {
@@ -23,6 +24,7 @@ const fruits = [
         createLi: function() {
             let li = document.createElement('li');
             li.textContent = this.name + ' is ' + this.color;
+            li.setAttribute('class', this.color);
             return li;
         },
         createImg: function() {
@@ -32,12 +34,13 @@ const fruits = [
         }
     },
     {
-        name: 'lemon',
-        color: 'yellow',
-        image: 'images/lemon.jpg',
+        name: 'lime',
+        color: 'green',
+        image: 'images/lime.jpg',
         createLi: function() {
             let li = document.createElement('li');
             li.textContent = this.name + ' is ' + this.color;
+            li.setAttribute('class', this.color);
             return li;
         },
         createImg: function() {
@@ -53,6 +56,7 @@ const fruits = [
         createLi: function() {
             let li = document.createElement('li');
             li.textContent = this.name + ' is ' + this.color;
+            li.setAttribute('class', this.color);
             return li;
         },
         createImg: function() {
@@ -68,6 +72,7 @@ const fruits = [
         createLi: function() {
             let li = document.createElement('li');
             li.textContent = this.name + ' is ' + this.color;
+            li.setAttribute('class', this.color);
             return li;
         },
         createImg: function() {
@@ -75,5 +80,5 @@ const fruits = [
             img.setAttribute('src', this.image);
             return img;
         }
-    }
+    },
 ];
