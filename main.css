@@ -1,9 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 .red {
     color: red;
 }
 
 .yellow {
-    color: goldenrod;
+    color: gold;
 }
 
 .orange {
@@ -12,4 +16,9 @@
 
 .green {
     color: green;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
