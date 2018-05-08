@@ -1,3 +1,21 @@
+@keyframes back-glow {
+    0% {
+        filter: hue-rotate(0deg);
+    } 90% {
+        filter: hue-rotate(0deg);
+    } 100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes img-dance {
+    from {
+        padding: 0;
+    } to {
+        padding: 3px;
+    }
+}
+
 body {
     display: block;
     margin: 0;
@@ -19,4 +37,9 @@ body {
     border: 1px solid black;
     line-height: 0;
     font-size: 2rem;
+    animation: back-glow 10s forwards infinite;
 }
+
+/* img {
+    animation: img-dance 1s alternate infinite;
+} */
