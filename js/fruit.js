@@ -1,5 +1,6 @@
 'use strict';
-/* exported fruits */
+/*globals */
+/* exported fruits, createLi */
 
 /*
 name: string
@@ -10,21 +11,22 @@ size: ['small', 'medium', 'large']
 howMany: number
 */
 
-/* const testFruit = [
-    {
-        apple: {
-            
-        }
+function createLi() {
+    for(var i = 0; i < fruits.length; i++) {
+        var newEl = document.createElement('li');
+        var newText = document.createTextNode(Object.getOwnPropertyNames(fruits[i]));
+        newEl.appendChild(newText);
+        var position = document.getElementById('fruit-list');
+        position.appendChild(newEl);
     }
-] */
-
+}
 
 
 const fruits = [
     {
         apple: {
             color: 'green',
-            isFavorite: true,
+            isFavorite: false,
             taste: 'sweet',
             size: 'medium',
             howMany: 1,
@@ -62,19 +64,9 @@ const fruits = [
     },
 
     {
-        greenApple: {
-            color: 'green',
-            isFavorite: false,
-            taste: 'sour',
-            size: 'medium',
-            howMany: 1,
-        }
-    },
-
-    {
         kiwi: {
             color: 'green',
-            isFavorite: false,
+            isFavorite: true,
             taste: 'tart',
             size: 'small',
             howMany: 1,
@@ -106,16 +98,6 @@ const fruits = [
             isFavorite: true,
             taste: 'tart',
             size: 'large',
-            howMany: 1,
-        }
-    },
-
-    {
-        redApple: {
-            color: 'red',
-            isFavorite: false,
-            taste: 'sweet',
-            size: 'medium',
             howMany: 1,
         }
     },

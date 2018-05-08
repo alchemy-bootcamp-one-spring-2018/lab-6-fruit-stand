@@ -1,0 +1,22 @@
+body {
+    background-color: turquoise;
+    max-width: 600px;
+}
+
+h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    background-color: tomato;
+}
+
+td {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.images {
+    width: 200px;
+}
