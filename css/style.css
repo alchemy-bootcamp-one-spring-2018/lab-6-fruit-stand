@@ -1,15 +1,26 @@
 body {
     background-color: turquoise;
-    max-width: 600px;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#big-box {
+    background-color: yellowgreen;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-style: 
 }
 
 table {
     background-color: tomato;
+    width: 590px;
+    z-index: -1
 }
 
 td {
@@ -18,5 +29,15 @@ td {
 }
 
 .images {
-    width: 200px;
+    width: 150px;
+    text-align: 
+}
+
+.images:hover {
+    backgrou
+}
+
+ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
 }
