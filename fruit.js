@@ -1,6 +1,6 @@
-/* exported fruitsArray */
+/* exported fruits */
 
-const fruitsArray = [
+const fruits = [
     {
         name: 'apple',
         color: 'red',
