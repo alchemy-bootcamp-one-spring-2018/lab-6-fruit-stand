@@ -6,6 +6,8 @@ function renderFruit() {
 
     for(var i = 0; i < fruits.length; i++) {
         const li = fruits[i].createLi();
+        const img = fruits[i].createImg();
         list.appendChild(li);
+        list.appendChild(img);
     }
 }
