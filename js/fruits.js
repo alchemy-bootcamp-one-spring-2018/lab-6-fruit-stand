@@ -3,7 +3,7 @@
 
 var fruitStand = [
     {
-        name: 'apple',
+        name: 'Apples',
         color: 'red',
         texture: 'firm',
         shape: 'round',
@@ -11,7 +11,7 @@ var fruitStand = [
         image: 'images/Apple.jpg',
         createLi: function() {
             let li = document.createElement('li');
-            li.textContent = this.color + ' ' + this.shape;
+            li.textContent = this.name + ' are: ' + this.shape + ', ' + this.color + ', and ' + this.taste;
             return li;
         },
         createImg: function() {
@@ -22,7 +22,7 @@ var fruitStand = [
         }
     },
     {
-        name: 'orange',
+        name: 'Oranges',
         color: 'orange',
         texture: 'soft',
         shape: 'round',
@@ -31,7 +31,7 @@ var fruitStand = [
         image: 'images/orange.jpg',
         createLi: function() {
             let li = document.createElement('li');
-            li.textContent = this.color;
+            li.textContent = this.name + ' are named for their color: ' + this.color + ' they are ' + this.texture ;
             return li;
         },
         createImg: function() {
@@ -42,15 +42,15 @@ var fruitStand = [
         }
     },
     {
-        name: 'dragonFruit',
+        name: 'Dragonfruit',
         color: 'pink',
         texture: 'soft',
-        shape: 'oblong',
+        shape: 'scaly',
         taste: 'mild',
         image: 'images/dragonFruit.jpg',
         createLi: function() {
             let li = document.createElement('li');
-            li.textContent = this.color;
+            li.textContent = this.name + ' is named for its ' + this.shape + '. It is ' + this.taste + ' in taste and the inside is ' + this.texture + '.';
             return li;
         },
         createImg: function() {
