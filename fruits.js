@@ -22,25 +22,32 @@ let fruits = [
     },
     {
         //fruitImg: ,
-        fruitName: 'Banana',
+        fruitName: 'Bananas',
         fruitPrice: '$1'
     },
     {
         //fruitImg: ,
-        fruitName: 'Pear',
+        fruitName: 'Pears',
         fruitPrice: '$.50'
     }
 ];
 
 //function creatLi()
-function createLi() {
+var createLi = function() {
     //code block to create <li>
-}
+    //follow steps to add to DOM
 
-//follow steps to add to DOM
-//make a js reference to the parent element
-//create the child element we want to add and save as a var
-//give child content (content can be text)
-//append child to the parent
+    //make a js reference to the parent element
+    const ul = document.getElementById('fruits-list');
+    //create the child element we want to add and save as a var
+    let li = document.createElement('fruit');
+    //give child content (content can be text)
+    li.textContent = fruits['fruitName'] + ' are ' + fruits['fruitPrice'];
+    //append child to the parent
+    ul.appendChild(li);
+
+};
+
+
 
 //function for creating ridges on background 
