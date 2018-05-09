@@ -9,3 +9,15 @@
 .orange {
     color: orange
 }
+
+.green{
+    color:green;
+}
+
+div {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(146, 146, 146);
+    display: inline-block;
+    margin: 60px;
+}
