@@ -15,7 +15,6 @@ var fruitStand = [
             li.style.color = this.color;
             return li;
         },
-
         createImg: function() {
             let img = document.createElement('img');
             img.setAttribute('src', this.image);
@@ -100,7 +99,7 @@ var fruitStand = [
             let li = document.createElement('h2');
             li.textContent = this.name;
             li.style.color = this.color;
-            
+
             return li;
         },
         createImg: function() {
