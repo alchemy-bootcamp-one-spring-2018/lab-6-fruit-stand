@@ -1,11 +1,33 @@
+body {
+    background-color: black;
+    border: 100px;
+    border-color: red;
+    padding: 40px;
+}
 
+h1 {
+    font-family: courier;
+    color: white;
+}
 
-/* ## Requirements
-
-1. Use the name of the fruit as a header of some sort
-1. Set the `img.src` to that image in your images folder
-1. Set the `.style.color` property of one of your elements to the color property of the fruit */
-
-.style {
+div {
     display: inline-block;
+}
+
+img {
+    display: block;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none; 
+}
+
+li {
+    line-height: 126px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
 }

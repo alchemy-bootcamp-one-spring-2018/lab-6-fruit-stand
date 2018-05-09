@@ -2,15 +2,14 @@
 /* exported */
 'use strict';
 
-// 1. In `app.js`:
-// 1. "import" (`globals`) `fruits` from `fruit.js`
-// 1. process the fruits, using createLi fn to Append Child to `<ul>` element 
-
-
 //loop through fruits from fruits.js
 for(var i = 0; i < fruits.length; i++) {
     //call createLi to append child to <ul id="fruits-list">
     createLi(fruits[i]);
-    //addImage(fruits[i]);
-    // var oneLine = (addImage(fruits[i]) + createLi(fruits[i]));
 }
+
+//loop through images
+for(var j = 0; j < fruits.length; j++) {
+    addImage(fruits[j]);
+}
+
