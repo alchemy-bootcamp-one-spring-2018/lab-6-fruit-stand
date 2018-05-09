@@ -18,7 +18,24 @@ body {
     color: green;
 }
 
-li {
+
+ul {
     list-style: none;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+/* https://stackoverflow.com/questions/12856279/border-around-li-tag */
+li {
+    list-style-position: inside;
+    border: 1px solid black;
+    margin: 0 10px 10px 10px;
+}
+
+img {
+    display: block;
+}
+
+.hidden {
+    visibility: none;
 }

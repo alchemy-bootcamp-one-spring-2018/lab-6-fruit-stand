@@ -8,6 +8,7 @@ function renderFruit() {
         const li = fruits[i].createLi();
         const img = fruits[i].createImg();
         list.appendChild(li).appendChild(img);
+        // list.appendChild(li); make it a child of the li element! of course!
     }
 }
 
