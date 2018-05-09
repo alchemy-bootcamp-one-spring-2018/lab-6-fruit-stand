@@ -1,9 +1,9 @@
 # Fruit Stand
 
-Write an fruit stand app that dynamically displays fruit information including name, an image, 
+Write a fruit stand app that dynamically displays fruit information including name, an image, 
 and color of fruit based on fruit data.
 
-It might look something like this (but you can probably do something waaay better):
+It might look something like this (but you can probably do something way better):
 
 <img src="https://user-images.githubusercontent.com/478864/39771385-75865a74-529e-11e8-9fcc-4b81208195d8.png" height="250px">
 
@@ -23,29 +23,15 @@ You'll need to find images of each fruit to put in `images` folder.
 ## Process Guidence
 
 1. In your `index.html` 
-    1. Include a root element for "mounting" your app
-    1. Use a template element to describe the base html for an individual fruit list item (`li`)
+    1. Include a 'fruit-list' id on a `<ul>` element as a "placeholder" for js-generated `<li>`s
     1. Add `<script>` for you js files!
+1. In 'fruit.js':
+    1. create an array of objects to define your fruit
+    1. add function 'createLi' to each fruit that creates a `<li>` element with text
 1. In `app.js`:
     1. "import" (`globals`) `fruits` from `fruit.js`
-    1. "export" (`exported`) the `App` class
-    1. Before the class definition, create a template variable and assign it the template content from the 
-    template element in `index.html` (Don't forget to use the `.content` property to get the document fragment!)
-    1. Define your `App` class (more below)
-1. In `main.js`, 
-    1. "import" (`globals`) `App` from `App.js`
-    1. Create an instance of the App class
-    1. Call `app.render()` and append result to root element from `index.html`
-1. In your `App` class:
-    1. Define a constructor that assigns the fruit data to `this.fruits`
-    1. Define a render method that will
-        1. Create the `ul` element
-        1. Loop the fruit data and clone the template, then update the clone with the data from the fruit
-            1. Clone
-            1. `.querySelect` each element on which you need to set property(ies)
-            1. Modify those elements
-            1. Append to `ul`
-        1. return the `ul` element
+    1. process the fruits, using createLi fn to Append Child to `<ul>` element 
+
 
 ## Stretch Goals
 

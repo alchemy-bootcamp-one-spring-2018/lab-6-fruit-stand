@@ -1,0 +1,38 @@
+body {
+    background-color: lightgrey;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 30px;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.container {
+    margin: 20px;
+    border-style: solid;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    width: 350px;
+
+}
+
+.images {
+    width: 350px;
+}
