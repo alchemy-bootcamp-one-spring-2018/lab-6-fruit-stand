@@ -1,28 +1,9 @@
-var fruits = [{
-    color: 'green',
-    type: 'Apple',
-    image: '../images/green-apple.jpeg'
-}, {
-    color: 'orange',
-    type: 'Orange',
-    image: '../images/orange.png'
-}, {
-    color: 'yellow',
-    type: 'Banana',
-    image: '../images/banana.jpeg'
-}, {
-    color: 'red',
-    type: 'Strawberry',
-    image: '../images/strawberry.jpeg'
-}, {
-    color: 'green',
-    type: 'Watermelon',
-    image: '../images/watermelon.jpeg'
-}, {
-    color: 'yellow',
-    type: 'Pear',
-    image: '../images/pear.jpeg'
-}];
+function Fruits(color, type, image) {
+    this.color = color;
+    this.type = type;
+    this.image = image;
+}
+
 
 console.log('in the fruit.js');
 
@@ -40,3 +21,20 @@ for(let i = 0; i < fruits.length; i++) {
 setTimeout(() => {
     document.getElementById('container-main').appendChild(temp);
 }, 100);
+
+
+// import('./fruit.js');
+
+// // Instantiate fruit objects
+// var apple = Fruits('green', 'Apple', '../images/green-apple.jpeg');
+// var orange = Fruits('orange', 'Orange', '../images/orange.png');
+// var banana = Fruits('yellow', 'Banana', '../images/banana.jpeg');
+// var strawberry = Fruits('red', 'Strawberry', '../images/strawberry.jpeg');
+// var watermelon = Fruits('green', 'Watermelon', '../images/watermelon.jpeg');
+// var pear = Fruits('yellow', 'Pear', '../images/pear.jpeg');
+
+// var fruitArray = [apple, orange, banana, strawberry, watermelon, pear];
+
+// for(let i in fruitArray) {
+    
+// }
