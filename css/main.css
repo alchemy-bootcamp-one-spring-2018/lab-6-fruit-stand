@@ -8,11 +8,11 @@
     }
 }
 
-@keyframes img-dance {
-    from {
-        padding: 0;
+@keyframes back-move {
+	from {
+        background-position: 0 0;
     } to {
-        padding: 3px;
+        background-position: 100% 100%;
     }
 }
 
@@ -20,7 +20,8 @@ body {
     display: block;
     margin: 0;
     padding: 0;
-    background-image: url("../images/background.jpg");      
+    background-image: url("../images/background.jpg");
+    animation: back-move 60s linear infinite;
 }
 
 #container-main {
@@ -39,7 +40,3 @@ body {
     font-size: 2rem;
     animation: back-glow 10s forwards infinite;
 }
-
-/* img {
-    animation: img-dance 1s alternate infinite;
-} */
