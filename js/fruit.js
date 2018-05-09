@@ -30,6 +30,7 @@ const fruits = [
             taste: 'sweet',
             size: 'medium',
             howMany: 1,
+            image: 'images/apple.png',
         }
     },
     
@@ -40,6 +41,7 @@ const fruits = [
             taste: 'sweet',
             size: 'medium',
             howMany: 1,
+            image: 'images/banana.png',
         }
     },
 
@@ -50,6 +52,7 @@ const fruits = [
             taste: 'tart',
             size: 'small',
             howMany: 1,
+            image: 'images/cherry.png',
         }
     },
 
@@ -60,6 +63,7 @@ const fruits = [
             taste: 'sweet',
             size: 'small',
             howMany: 1,
+            image: 'images/grape.png',
         }
     },
 
@@ -70,6 +74,7 @@ const fruits = [
             taste: 'tart',
             size: 'small',
             howMany: 1,
+            image: 'images/kiwi.png',
         }
     },
 
@@ -80,6 +85,7 @@ const fruits = [
             taste: 'sour',
             size: 'medium',
             howMany: 1,
+            image: 'images/lemon.png',
         }
     },
     {
@@ -89,6 +95,7 @@ const fruits = [
             taste: 'sweet',
             size: 'medium',
             howMany: 1,
+            image: 'images/orange.png',
         }
     },
 
@@ -99,6 +106,7 @@ const fruits = [
             taste: 'tart',
             size: 'large',
             howMany: 1,
+            image: 'images/pineapple.png',
         }
     },
 ];

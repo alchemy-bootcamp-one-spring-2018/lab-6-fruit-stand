@@ -14,7 +14,6 @@ body {
 h1, h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-style: 
 }
 
 table {
@@ -26,15 +25,11 @@ table {
 td {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
 }
 
 .images {
     width: 150px;
-    text-align: 
-}
-
-.images:hover {
-    backgrou
 }
 
 ul {
