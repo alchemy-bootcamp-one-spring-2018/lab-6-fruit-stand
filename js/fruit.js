@@ -6,14 +6,16 @@ function Fruit(name, color, imageFile, hoverText) {
     this.imageFile = imageFile;
     this.hoverText = hoverText;
     this.createLi = function() {
+        // create li element
         var newLi = document.createElement('li');
-        var newText = document.createTextNode(this.name);
-        var newImg = document.createElement('img');
-        newImg.src = this.imageFile;
-        newLi.appendChild(newText);
-        newLi.appendChild(newImg);
+        newLi.textContent = this.name;
         newLi.className = color;
         newLi.title = this.hoverText;
+        // create image element
+        var newImg = document.createElement('img');
+        newImg.src = this.imageFile;
+        // set image as child of li
+        newLi.appendChild(newImg);
         return newLi;
     };
 }
