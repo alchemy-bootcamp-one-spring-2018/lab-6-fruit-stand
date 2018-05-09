@@ -1,63 +1,13 @@
-/*   exported fruit      */
+/* globals fruits */
 'use strict';
 
-const fruit = {
-    name: 'strawBerry',
-    family: 'rosaceae',
-    asPie: false,
-    likesAsPie: function() {
-        this.asPie = true;
-    },
+for (i = 0, i < fruits.length, i++);
 
-    createLi: function() {
-        const li = document.createElement('li');
-        li.textContent = this.name + ' part of the ' + this.family + ' family.';
-        return li;
+console.log('hello');
 
-    }
-};
+console.log(fruits[0].strawberry.createLi());
 
-const fruit2 = {
-    name: 'apple',
-    family: 'rosaceae',
-    asPie: false,
-    likesAsPie: function() {
-        this.asPie = true;
-    },
+const testQ = document.querySelector('#fruits');
 
-    createLi: function() {
-        const li = document.createElement('li');
-        li.textContent = this.name + ' part of the ' + this.family + ' family.';
-        return li;
-    }
-};
-
-const fruit3 = {
-    name: 'banana',
-    family: 'musaceae',
-    asPie: false,
-    likesAsPie: function() {
-        this.asPie = true;
-    },
-
-    createLi: function() {
-        const li = document.createElement('li');
-        li.textContent = this.name + ' part of the ' + this.family + ' family.';
-        return li;
-    }
-};
-
-const fruit4 = {
-    name: 'blueberry',
-    family: 'Ericaceae',
-    asPie: false,
-    likesAsPie: function() {
-        this.asPie = true;
-    },
-
-    createLi: function() {
-        const li = document.createElement('li');
-        li.textContent = this.name + ' part of the ' + this.family + ' family. ';
-    }
-};
-
+console.log(testQ);
+testQ.appendChild(fruits[0].strawberry.createLi());
