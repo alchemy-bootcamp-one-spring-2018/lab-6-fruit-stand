@@ -10,15 +10,6 @@ var pear = new Fruits('yellow', 'Pear', '../images/pear.jpeg');
 var fruitArray = [apple, banana, orange, pear, strawberry, watermelon];
 
 // Needed to delay appending with null values
-var temp = document.createDocumentFragment();
 for(let i in fruitArray) {
-    var card = document.createElement('li');
-    card.classList = 'card';
-    card.style.background = fruitArray[i].color;
-    card.innerHTML = '<p>' + fruitArray[i].type + '</p><img src="' + fruitArray[i].image + '"><p>' + fruitArray[i].color + '</p>';
-    temp.appendChild(card);
+    fruitArray[i].append(document.createElement('li'));
 }
-// Delay append to avoid errors
-setTimeout(() => {
-    document.getElementById('container-main').appendChild(temp);
-}, 100);
