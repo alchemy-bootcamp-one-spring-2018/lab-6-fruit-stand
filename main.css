@@ -1,9 +1,16 @@
-body {
+#border {
+    border: 40px solid brown;
+    padding: 50px;
     background-color: black;
+}
+
+body {
+    
     border: 100px;
     border-color: red;
     padding: 40px;
 }
+
 
 h1 {
     font-family: courier;
