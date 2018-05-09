@@ -1,0 +1,11 @@
+
+ul {
+    font-size: 25px;
+}
+li {
+    display: inline;
+    border-width: 5px;
+}
+img {
+    width: 150px;
+}
