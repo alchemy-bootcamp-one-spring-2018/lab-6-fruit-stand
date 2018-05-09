@@ -27,10 +27,12 @@ const fruitStand = [
         createDiv: function() {
             const item = document.createElement('div');
             item.textContent = this.id + 's are ' + this.color;
+            item.className = this.color;
+
             const img = document.createElement('img');
             img.setAttribute('src', this.image);
             item.appendChild(img);
-            item.className = this.color;
+            
             return item;
         }
     },
@@ -43,10 +45,12 @@ const fruitStand = [
         createDiv: function(){
             const item = document.createElement('div');
             item.textContent = this.id + 's are ' + this.color;
+            item.className = this.color;
+
             const img = document.createElement('img');
             img.setAttribute('src', this.image);
             item.appendChild(img);
-            item.className = this.color;
+            
             return item;
         }
     },
@@ -59,10 +63,12 @@ const fruitStand = [
         createDiv: function(){
             const item = document.createElement('div');
             item.textContent = this.id + 's are ' + this.color;
+            item.className = this.color;
+            
             const img = document.createElement('img');
             img.setAttribute('src', this.image);
             item.appendChild(img);
-            item.className = this.color;
+            
             return item;
         }
     },
@@ -75,10 +81,12 @@ const fruitStand = [
         createDiv: function(){
             const item = document.createElement('div');
             item.textContent = this.id + 's are ' + this.color;
+            item.className = this.color;
+            
             const img = document.createElement('img');
             img.setAttribute('src', this.image);
             item.appendChild(img);
-            item.className = this.color;
+            
             return item;
         }
     },
