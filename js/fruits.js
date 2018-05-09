@@ -12,7 +12,7 @@ var fruitStand = [
         createLi: function() {
             let li = document.createElement('h2');
             li.textContent = this.name;
-            li.setAttribute('class', this.color);
+            li.style.color = this.color;
             return li;
         },
 
@@ -33,9 +33,8 @@ var fruitStand = [
         image: 'images/orange.jpg',
         createLi: function() {
             let li = document.createElement('h2');
-            li.setAttribute('class', this.color);
-
             li.textContent = this.name;
+            li.style.color = this.color;
             return li;
         },
 
@@ -55,8 +54,8 @@ var fruitStand = [
         image: 'images/dragonFruit.jpg',
         createLi: function() {
             let li = document.createElement('h2');
-            li.setAttribute('class', this.color);
             li.textContent = this.name;
+            li.style.color = this.color;
 
             return li;
         },
@@ -77,8 +76,8 @@ var fruitStand = [
         image: 'images/strawberry.jpg',
         createLi: function() {
             let li = document.createElement('h2');
-            li.setAttribute('class', this.color);
             li.textContent = this.name;
+            li.style.color = this.color;
 
             return li;
         },
@@ -99,12 +98,11 @@ var fruitStand = [
         image: 'images/StarFruit.jpg',
         createLi: function() {
             let li = document.createElement('h2');
-            li.setAttribute('class', this.color);
             li.textContent = this.name;
-
+            li.style.color = this.color;
+            
             return li;
         },
-
         createImg: function() {
             let img = document.createElement('img');
             img.setAttribute('src', this.image);

@@ -11,20 +11,5 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-section {
     width: 240px;
-}
-
-.red {
-    color: red;
-}
-.orange{
-    color: orange;
-}
-.pink {
-    color: pink;
-}
-.yellow {
-    color: yellow;
 }
