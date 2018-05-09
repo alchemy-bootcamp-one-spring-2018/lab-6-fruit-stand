@@ -2,9 +2,9 @@
 'use strict';
 
 
-const fruits = [{
+const fruits = [
 
-    strawberry: {
+    {
         name: 'strawberry',
         color: 'red',
         family: 'rosaceae',
@@ -15,7 +15,7 @@ const fruits = [{
         }
     },
 
-    apple: {
+    {
         name: 'apple',
         color: 'green',
         family: 'rosaceae',
@@ -26,7 +26,7 @@ const fruits = [{
         }
     },
 
-    blueberry: {
+    {
         name: 'blueberry',
         color: 'blue',
         family: 'ericaceae',
@@ -37,7 +37,7 @@ const fruits = [{
         }
     },
         
-    banana: {
+    {
         name: 'banana',
         color: 'yellow',
         family: 'musaceae',
@@ -51,5 +51,5 @@ const fruits = [{
     //     asPie: false,
     //     likesAsPie: function() {
     //         this.asPie = true;
-}
+
 ];
