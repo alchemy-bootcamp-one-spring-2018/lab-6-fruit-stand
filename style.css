@@ -3,9 +3,24 @@ ul {
     font-size: 25px;
 }
 li {
-    display: inline;
-    border-width: 5px;
+    padding-bottom: 100px;
 }
 img {
     width: 150px;
+    position: relative; left: -100px; bottom: 50px;
+}
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
 }

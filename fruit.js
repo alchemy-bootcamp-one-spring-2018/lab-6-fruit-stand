@@ -1,9 +1,4 @@
-
-
-
-
-
-
+/* exported fruit */
 
 var fruit = [
     {

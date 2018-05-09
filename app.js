@@ -1,4 +1,4 @@
-
+/* globals fruit */
 
 const list = document.getElementById('listId');
 
