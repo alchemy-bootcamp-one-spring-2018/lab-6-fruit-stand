@@ -5,20 +5,22 @@ body{
 }
 
 h1 {
-    color: rgb(18, 55, 65);
+    color: black;
     text-align: center;
     font-size: 55px;
     font-style: oblique;
     text-decoration: underline;
     margin: 5px;
-    border-style: double;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
     border-color: black;
     border-width: 3px;
     border-radius: 10px;
-    
+    background-color: rgb(135, 163, 175);
 }
 #fruit-list {
-    background-color: rgb(87, 59, 59); 
+    background-color: rgb(23, 112, 153); 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -32,7 +34,7 @@ h2{
 div {   
     text-align: center;
     border-radius: 15px;
-    background-color: rgb(146, 146, 120);
+    background-color: rgb(135, 163, 175);
     border-style: solid;
     border-width: 3px;
     border-color: black;
