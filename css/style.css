@@ -1,0 +1,55 @@
+
+body{
+    background-color: grey;
+    
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 55px;
+    font-style: oblique;
+    text-decoration: underline;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(135, 163, 175);
+}
+#fruit-list {
+    background-color: rgb(23, 112, 153); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 240;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+div {   
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(135, 163, 175);
+    border-style: solid;
+    border-width: 0;
+    border-color: black;
+    padding: 30px;
+    padding-top: 5px;
+    padding-right: .5px;
+    padding-left: .5px;
+    padding-bottom: 2px;
+    margin: 30px;
+}
+p {
+    color: rgb(110, 57, 18);
+    font-weight: bolder
+}
