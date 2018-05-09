@@ -20,6 +20,12 @@ var fruitStand = [
             img.setAttribute('src', this.image);
             
             return img;
+        },
+        createP: function() {
+            let descript = document.createElement('p');
+            descript.textContent = 'Taste: ' + this.taste;
+
+            return descript;
         }
     },
     {
@@ -42,6 +48,12 @@ var fruitStand = [
             img.setAttribute('src', this.image);
 
             return img;
+        },
+        createP: function() {
+            let descript = document.createElement('p');
+            descript.textContent = 'Taste: ' + this.taste;
+
+            return descript;
         }
     },
     {
@@ -64,6 +76,12 @@ var fruitStand = [
             img.setAttribute('src', this.image);
 
             return img;
+        },
+        createP: function() {
+            let descript = document.createElement('p');
+            descript.textContent = 'Taste: ' + this.taste;
+
+            return descript;
         }
     },
     {
@@ -86,6 +104,12 @@ var fruitStand = [
             img.setAttribute('src', this.image);
 
             return img;
+        },
+        createP: function() {
+            let descript = document.createElement('p');
+            descript.textContent = 'Taste: ' + this.taste;
+
+            return descript;
         }
     },
     {
@@ -107,6 +131,12 @@ var fruitStand = [
             img.setAttribute('src', this.image);
 
             return img;
+        },
+        createP: function() {
+            let descript = document.createElement('p');
+            descript.textContent = 'Taste: ' + this.taste;
+
+            return descript;
         }
     },
     {
@@ -117,11 +147,11 @@ var fruitStand = [
         taste: 'mildly-sweet',
         image: 'images/coconut.jpg',
         createh2: function() {
-            let li = document.createElement('h2');
-            li.textContent = this.name;
-            li.style.color = this.color;
+            let h2 = document.createElement('h2');
+            h2.textContent = this.name;
+            h2.style.color = this.color;
 
-            return li;
+            return h2;
         },
         createImg: function() {
             let img = document.createElement('img');
@@ -129,9 +159,12 @@ var fruitStand = [
 
             return img;
         },
-        // createD: function() {
-        //     let descript = document.createElement('li');
-        //     descript.textContent = 'Taste: ' + this.tase;
-        // }
+        createP: function() {
+            let descript = document.createElement('p');
+            descript.textContent = 'Taste: ' + this.taste;
+
+            return descript;
+        }
+
     }
 ];
