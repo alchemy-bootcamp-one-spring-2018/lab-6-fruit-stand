@@ -1,45 +1,50 @@
-var fruits = {
-    name: 'pear',
-    color: 'green',
-    skinEdible: true,
-    image: 'images/pear.jpg'
+/* exported myFruit */
 
-    createLi: function() {
-        var li = document.createElement('li');
-        li.textContent = this.color + ' yum ' + this.skinEdible;
-        return li;
-  
+var myFruit = [
+    {
+        name: 'pear',
+        color: 'green',
+        //skinEdible: true,
+        image: 'images/pear.jpg',
 
+        createLi: function() {
+            var li = document.createElement('li');
+            var text = document.createTextNode(this.name);
+            var img = document.createElement('img');
+            img.src= this.image;
+            li.textContent = this.name + ' is ' + this.color;
+            li.appendChild(text);
+            li.appendChild(img);
+            return li;
+            console.log(li.textContent + 'hi');
+        }
+    },
+    {
+        name: 'banana',
+        color: 'yellow',
+        //skinEdible: false,
+        image: 'images/banana.jpg',
 
+        createLi: function() {
+            var li = document.createElement('li');
+            li.textContent = this.name + ' is ' + this.color;
+            return li;
+        }
+    },
+    {
+        name: 'orange',
+        color: 'orange',
+        //skinEdible: false,
+        image: 'images/orange.jpg',
 
-var fruit1 = {
-    type: 'pear',
-    color: 'green',
-    skinEdible: true
-};
-
-var fruit2 = {
-    type: 'banana',
-    color: 'yellow',
-    skinEdible: false
-    method: function () {
-        alert(this.skinEdible);
+        createLi: function() {
+            var li = document.createElement('li');
+            li.textContent = this.name + ' is ' + this.color;
+            return li;
+        }
     }
-};
-console.log('outside of an object this is: ', this);
+];
 
-//     orange: {
-//     id: 'orange',
-//     color: 'orange',
-//     skinEdible: false
 
-// },
-
-//     strawberry: {
-//     id: 'strawberry',
-//     color: 'red',
-//     skinEdible: 'true'
-//     ]
-// };
-
+       
 
