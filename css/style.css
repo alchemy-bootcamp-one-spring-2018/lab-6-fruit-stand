@@ -36,8 +36,11 @@ div {
     border-radius: 15px;
     background-color: rgb(135, 163, 175);
     border-style: solid;
-    border-width: 1px;
+    border-width: 1.5px;
     border-color: black;
-    padding: 20px;
+    padding: 30px;
+    padding-top: 5px;
+    padding-right: .5px;
+    padding-left: .5px;
     margin: 30px;
 }

@@ -9,7 +9,7 @@ var fruitStand = [
         shape: 'round',
         taste: 'sweet',
         image: 'images/Apple.jpg',
-        createLi: function() {
+        createh2: function() {
             let li = document.createElement('h2');
             li.textContent = this.name;
             li.style.color = this.color;
@@ -30,7 +30,7 @@ var fruitStand = [
         taste: 'sweet',
         region: 'west coast',
         image: 'images/orange.jpg',
-        createLi: function() {
+        createh2: function() {
             let li = document.createElement('h2');
             li.textContent = this.name;
             li.style.color = this.color;
@@ -51,7 +51,7 @@ var fruitStand = [
         shape: 'scaly',
         taste: 'mild',
         image: 'images/dragonFruit.jpg',
-        createLi: function() {
+        createh2: function() {
             let li = document.createElement('h2');
             li.textContent = this.name;
             li.style.color = this.color;
@@ -73,7 +73,7 @@ var fruitStand = [
         shape: 'heart',
         taste: 'tangy',
         image: 'images/strawberry.jpg',
-        createLi: function() {
+        createh2: function() {
             let li = document.createElement('h2');
             li.textContent = this.name;
             li.style.color = this.color;
@@ -95,7 +95,7 @@ var fruitStand = [
         shape: 'star',
         taste: 'sour',
         image: 'images/StarFruit.jpg',
-        createLi: function() {
+        createh2: function() {
             let li = document.createElement('h2');
             li.textContent = this.name;
             li.style.color = this.color;
@@ -116,7 +116,7 @@ var fruitStand = [
         shape: 'round',
         taste: 'mildly-sweet',
         image: 'images/coconut.jpg',
-        createLi: function() {
+        createh2: function() {
             let li = document.createElement('h2');
             li.textContent = this.name;
             li.style.color = this.color;
@@ -128,6 +128,10 @@ var fruitStand = [
             img.setAttribute('src', this.image);
 
             return img;
-        }
+        },
+        // createD: function() {
+        //     let descript = document.createElement('li');
+        //     descript.textContent = 'Taste: ' + this.tase;
+        // }
     }
 ];
