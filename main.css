@@ -1,0 +1,40 @@
+#border {
+    border: 40px solid brown;
+    padding: 50px;
+    background-color: black;
+}
+
+body {
+    
+    border: 100px;
+    border-color: red;
+    padding: 40px;
+}
+
+
+h1 {
+    font-family: courier;
+    color: white;
+}
+
+div {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none; 
+}
+
+li {
+    line-height: 126px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
