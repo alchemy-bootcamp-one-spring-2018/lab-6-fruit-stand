@@ -5,12 +5,37 @@ body{
 }
 
 h1 {
+    color: rgb(18, 55, 65);
     text-align: center;
+    font-size: 55px;
+    font-style: oblique;
+    text-decoration: underline;
+    margin: 5px;
+    border-style: double;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
     
 }
 #fruit-list {
+    background-color: rgb(87, 59, 59); 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 240px;
+    width: 240;
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+div {   
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(146, 146, 120);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 20px;
+    margin: 10px;
 }
