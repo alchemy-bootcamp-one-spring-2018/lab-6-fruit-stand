@@ -80,8 +80,4 @@ const fruitStand = [
             return item;
         }
     },
-
-
-
-
 ];
