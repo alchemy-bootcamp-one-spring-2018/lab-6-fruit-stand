@@ -1,23 +1,19 @@
 
 body{
     background-color: grey;
-    border-color: black;
-    border-width: 2px;
+    
 }
 h1 {
     text-align: center;
-    text-size
+    
 }
 #fruit-list {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-color: black;
-    border-width: 3px;
 }
 section {
-        width: 240px;
-
+    width: 240px;
 }
 
 .red {
