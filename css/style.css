@@ -1,14 +1,16 @@
 body {
     background-color: turquoise;
-    width: 600px;
     padding: 10px;
     margin: 10px;
+    width: 590px;
+    
 }
 
 #big-box {
     background-color: yellowgreen;
     border: 5px solid black;
     border-radius: 10px;
+    width: inherit;
 }
 
 h1, h2 {
@@ -19,7 +21,7 @@ h1, h2 {
 table {
     background-color: tomato;
     width: 590px;
-    z-index: -1
+    z-index: -1;
 }
 
 td {
@@ -28,9 +30,7 @@ td {
     padding: 5px;
 }
 
-.images {
-    width: 150px;
-}
+
 
 ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,5 +39,20 @@ ul {
 
 img {
     width: 50px;
+    border-radius: 40px;
     padding: 10px;
+    box-sizing: border-box;
+}
+
+.images {
+    width: 150px;
+}
+
+.images:hover {
+    width: 150px;
+    filter: opacity(0.9);
+    border-style: dotted;
+    border-width: 7px;
+    border-color: rgba(255, 255, 255, 0.753);
+    background-color: turquoise;
 }
