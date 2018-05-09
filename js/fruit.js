@@ -1,5 +1,6 @@
 /* exported myFruit */
 
+
 var myFruit = [
     {
         name: 'pear',
@@ -9,14 +10,8 @@ var myFruit = [
 
         createLi: function() {
             var li = document.createElement('li');
-            var text = document.createTextNode(this.name);
-            var img = document.createElement('img');
-            img.src= this.image;
             li.textContent = this.name + ' is ' + this.color;
-            li.appendChild(text);
-            li.appendChild(img);
             return li;
-            console.log(li.textContent + 'hi');
         }
     },
     {
@@ -44,6 +39,7 @@ var myFruit = [
         }
     }
 ];
+
 
 
        

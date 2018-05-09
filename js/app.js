@@ -1,11 +1,12 @@
-/* globals makeFruit, myFruit */
-
+/* globals myFruit */
+/* exported makeFruit */
 
 function makeFruit() {
-//myFruit = document.getElementById('my-fruit');
+    var list = document.getElementById('my-fruit');
+    var li = myFruit.createLi();
 
     for(var i = 0; i < myFruit.length; i++) {
-        var li = myFruit[i].createLi();
-        list.appendChild(li);
+        var li = myFruit[i].createElement('li');
+        myFruit.appendChild(li);
     }
 }
