@@ -108,5 +108,26 @@ var fruitStand = [
 
             return img;
         }
+    },
+    {
+        name: 'Coconuts',
+        color: 'brown',
+        texture: 'hard',
+        shape: 'round',
+        taste: 'mildly-sweet',
+        image: 'images/coconut.jpg',
+        createLi: function() {
+            let li = document.createElement('h2');
+            li.textContent = this.name;
+            li.style.color = this.color;
+
+            return li;
+        },
+        createImg: function() {
+            let img = document.createElement('img');
+            img.setAttribute('src', this.image);
+
+            return img;
+        }
     }
 ];
