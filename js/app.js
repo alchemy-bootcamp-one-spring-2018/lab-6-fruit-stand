@@ -11,3 +11,4 @@ function makeFruit() {
 makeFruit();
 
 console.log(myFruit[0].name);
+console.log(myFruit[2].skinEdible);

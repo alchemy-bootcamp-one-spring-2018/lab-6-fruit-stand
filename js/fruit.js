@@ -5,7 +5,7 @@ var myFruit = [
     {
         name: 'pear',
         color: 'green',
-        //skinEdible: true,
+        skinEdible: true,
         image: 'images/pear.jpg',
 
         createLi: function() {
@@ -17,7 +17,7 @@ var myFruit = [
     {
         name: 'banana',
         color: 'yellow',
-        //skinEdible: false,
+        skinEdible: false,
         image: 'images/banana.jpg',
 
         createLi: function() {
@@ -29,7 +29,7 @@ var myFruit = [
     {
         name: 'orange',
         color: 'orange',
-        //skinEdible: false,
+        skinEdible: false,
         image: 'images/orange.jpg',
 
         createLi: function() {
