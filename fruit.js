@@ -5,12 +5,12 @@
 const fruits = [
 
     {
-        name: 'strawberry',
+        name: 'strawberries',
         color: 'red',
         family: 'rosaceae',
         createLi: function() {
             const li = document.createElement('li');
-            li.textContent = this.name + ' part of the ' + this.family + ' family.';
+            li.textContent = this.name + ' are ' + this.color + ' and are part of the ' + this.family + ' family.';
             return li;
         }
     },

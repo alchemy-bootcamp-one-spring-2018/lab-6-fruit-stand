@@ -3,6 +3,8 @@
 
 
 
+
+
 function renderFruits() {
     var list = document.getElementById('fruits');
     for(let i = 0; i < fruits.length; i++) {
@@ -11,6 +13,10 @@ function renderFruits() {
     }
 }
 renderFruits();
+
+
+
+
 
 // console.log('hello');
 
