@@ -11,5 +11,6 @@
 for(var i = 0; i < fruits.length; i++) {
     //call createLi to append child to <ul id="fruits-list">
     createLi(fruits[i]);
-    addImage(fruits[i]);
+    //addImage(fruits[i]);
+    // var oneLine = (addImage(fruits[i]) + createLi(fruits[i]));
 }

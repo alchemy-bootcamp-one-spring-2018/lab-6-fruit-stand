@@ -19,24 +19,24 @@ let fruits = [
         // fruitColor: 'green',
     
     },
-    {
-        fruitImg: 'images/1.png',
-        fruitName: 'Oranges',
-        fruitPrice: '$2',
-        // fruitColor: 'orange',
-    },
-    {
-        fruitImg: 'images/2.png',
-        fruitName: 'Bananas',
-        fruitPrice: '$1',
-        // fruitColor: 'yellow',
-    },
-    {
-        fruitImg: 'images/3.png',
-        fruitName: 'Pears',
-        fruitPrice: '$.50',
-        // fruitColor: 'green',
-    }
+    // {
+    //     fruitImg: 'images/1.png',
+    //     fruitName: 'Oranges',
+    //     fruitPrice: '$2',
+    //     // fruitColor: 'orange',
+    // },
+    // {
+    //     fruitImg: 'images/2.png',
+    //     fruitName: 'Bananas',
+    //     fruitPrice: '$1',
+    //     // fruitColor: 'yellow',
+    // },
+    // {
+    //     fruitImg: 'images/3.png',
+    //     fruitName: 'Strawberries',
+    //     fruitPrice: '$2',
+    //     // fruitColor: 'green',
+    // }
 ];
 
 //function creatLi()
@@ -55,11 +55,18 @@ function createLi(x) {
 }
 
 //add images to fruit list
-function addImage(x) {
-    const parentImg = document.getElementById('fruits-list');
-    const img = document.createElement('img');
-    img.setAttribute('src', x.fruitImg);
-    parentImg.appendChild(img);
-}
+// function addImage(x) {
+//     const parentImg = document.getElementById('fruits-list');
+//     const img = document.createElement('img');
+//     img.setAttribute('src', x.fruitImg);
+//     parentImg.appendChild(img);
+// }
 
 //function for creating ridges on background 
+
+
+// li that i created line 50 
+// set atttribute of an id or class
+// innerHTML then type "<img src='image.png'>"
+// document.getElementById("image-holder").innerHTML = "<img src='image.png' alt='The Image' />";
+// $("li").append("<img src='something' />");
