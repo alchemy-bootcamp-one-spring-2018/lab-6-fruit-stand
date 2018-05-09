@@ -1,0 +1,34 @@
+
+body{
+    background-color: grey;
+    border-color: black;
+    border-width: 2px;
+}
+h1 {
+    text-align: center;
+    text-size
+}
+#fruit-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-color: black;
+    border-width: 3px;
+}
+section {
+        width: 240px;
+
+}
+
+.red {
+    color: red;
+}
+.orange{
+    color: orange;
+}
+.pink {
+    color: pink;
+}
+.yellow {
+    color: yellow;
+}
