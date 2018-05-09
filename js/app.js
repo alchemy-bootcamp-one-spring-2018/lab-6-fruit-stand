@@ -1,4 +1,17 @@
 'use strict';
-/* globals createLi */
+/* globals fruits */
 
-createLi();
+
+function create() {
+    for(var i = 0; i < fruits.length; i++) {
+        var first = document.querySelector('#fruit-list');
+        first.style = 'color: blue';
+
+        var fruitName = fruits[i].createLi();
+        first.appendChild(fruitName);
+
+        var fruitImage = (fruits[i].createImg());
+        first.appendChild(fruitImage);
+    }
+}
+create();

@@ -36,3 +36,8 @@ ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: capitalize;
 }
+
+img {
+    width: 50px;
+    padding: 10px;
+}
