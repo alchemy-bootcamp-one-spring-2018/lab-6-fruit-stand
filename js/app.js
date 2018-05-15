@@ -2,13 +2,17 @@
 /* exported makeFruit */
 
 function makeFruit() {
+    var list = document.getElementById('my-fruit');
+   
+
 
 
     for(var i = 0; i < myFruit.length; i++) {
-        console.log(myFruit[i]);
+        var li = myFruit[i].createLi();
+        var img = myFruit[i].createImg();
+        list.appendChild(li);
+        list.appendChild(img);
     }
 }
 makeFruit();
 
-console.log(myFruit[0].name);
-console.log(myFruit[2].skinEdible);

@@ -1,6 +1,5 @@
 /* exported myFruit */
 
-
 var myFruit = [
     {
         name: 'pear',
@@ -10,9 +9,16 @@ var myFruit = [
 
         createLi: function() {
             var li = document.createElement('li');
-            li.textContent = this.name + ' is ' + this.color;
+            li.textContent = 'this ' + this.name + ' is ' + this.color + ' and it is ' + this.skinEdible + ' the skin is edible.';
+            li.style = 'color: green';
             return li;
-        }
+            
+        },
+        createImg: function() {
+            var img = document.createElement('img');
+            img.setAttribute('src', this.image);
+            return img;
+        }  
     },
     {
         name: 'banana',
@@ -22,8 +28,14 @@ var myFruit = [
 
         createLi: function() {
             var li = document.createElement('li');
-            li.textContent = this.name + ' is ' + this.color;
+            li.textContent = 'this ' + this.name + ' is ' + this.color + ' and it is ' + this.skinEdible + ' the skin is edible.';
+            li.style = 'color: #ffff00';
             return li;
+        },
+        createImg: function() {
+            var img = document.createElement('img');
+            img.setAttribute('src', this.image);
+            return img;
         }
     },
     {
@@ -34,8 +46,14 @@ var myFruit = [
 
         createLi: function() {
             var li = document.createElement('li');
-            li.textContent = this.name + ' is ' + this.color;
+            li.textContent = 'this ' + this.name + ' is ' + this.color + ' and it is ' + this.skinEdible + ' the skin is edible.';
+            li.style = 'color: #cc6600';
             return li;
+        },
+        createImg: function() {
+            var img = document.createElement('img');
+            img.setAttribute('src', this.image);
+            return img;
         }
     }
 ];
