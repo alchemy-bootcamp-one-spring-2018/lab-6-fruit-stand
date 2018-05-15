@@ -29,6 +29,8 @@ ul {
 li {
     margin-bottom: 12px;
     font-size: 18px;
+    border-radius: 16px;
+    padding: 5px;
 }
 
 #fruit-stand {
